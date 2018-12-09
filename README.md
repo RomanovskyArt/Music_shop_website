@@ -1,4 +1,8 @@
-# RomanovskyArt.github.io
-2 study website (html/css + js a little bit)
-copy RomanovskyArt.github.io to see the website
-fgh
+2 study website (html/css + jQuerry a little bit) | The link RomanovskyArt.github.io
+------------ | -------------
+
+# Screenshots full version
+
+Main.png
+![](images/Main.png)
+
