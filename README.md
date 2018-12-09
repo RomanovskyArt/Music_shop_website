@@ -1,7 +1,7 @@
 2 study website (html/css + jQuerry a little bit) | The link RomanovskyArt.github.io
 ------------ | -------------
 
-# Screenshots full version
+# Screenshot full version
 
 Main.png
 ![](images/Main.png)
