@@ -1,12 +1,502 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Main Page</title>
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-    <a href="./website_2/index.html">link</a>
+<body style='overflow-x:hidden;'>
+<div class="header">
+    <div class="top">
+        <ul class="top-text">
+            <li><p class="top-text__left">Новосибирск → <u><a href="#">ул. Октябрьская, 34</a></u></p></li>
+            <li><a href="#"><img src="./images/phone.png" class="top-text-img_left"></a></li>
+            <li><p class="top-text__center"><a href="#">(383) 240-80-80, 240-80-00</a></p></li>
+            <li><p class="top-text__list"><a href="#">Как купить</a></p></li>
+            <li><p class="top-text__list"><a href="#">Гарантия</a></p></li>
+            <li><p class="top-text__list"><a href="#">Доставка</a></p></li>
+            <li><p class="top-text__right"><a href="#">Мой арсенал</a></p></li>
+            <li><a href="#"><img src="./images/bk1.png" class="top-text-img_right"></a></li>
+        </ul>
+    </div>
+    <div class="under-top">
+        <div class="logo">
+            <a href="#"><img src="./images/logo.png" title="logo"></a>
+            <p class="logo-text">Мы работаем на ваш талант!</p>
+        </div>
+        <div class="search">
+            <div class="search-container">
+                <form>
+                    <input type="text" placeholder="Поиск товаров">
+                    <button type="submit">
+                        <a href="#"><img src="./images/search.png"></a>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <a href="#">
+            <div class="shop-button">
+                    <div class="shop-button__number">
+                        <p class="shop-button__number-text">25</p>
+                    </div>
+                    <img src="./images/icon.png">
+                    <p class="shop-button__text">Корзина</p>
+            </div>
+        </a>
+    </div>
+</div>
+
+<!--Контент-->
+
+<div class="content">
+    <div class="menu">
+        <ul>
+            <li><a href="#">Акции</a></li>
+            <li><a href="#">Музыкальные инструменты</a></li>
+            <li><a href="#">DJ</a></li>
+            <li><a href="#">Шоу-техника</a></li>
+            <li><a href="#">Студия</a></li>
+            <li><a href="#">Звук</a></li>
+            <li><a href="#">Свет</a></li>
+            <li><a href="#">Коммутация</a></li>
+            <li><a href="#">Стойки</a></li>
+        </ul>
+    </div>
+    <div class="gallery">
+        <div class="sl">
+            <div class="sl__slide"><a href="#"><img src="images/1.jpg"  class="sl__img"></a>
+            </div>
+            <div class="sl__slide"><a href="#"><img src="images/2.jpg" class="sl__img"></a>
+            </div>
+            <div class="sl__slide"><a href="#"><img src="images/3.jpg" class="sl__img"></a>
+            </div>
+            <div class="sl__slide"><a href="#"><img src="images/4.jpg" class="sl__img"></a>
+            </div>
+        </div>
+    </div>
+    <div class="sponsors">
+        <ul>
+            <li>
+                <a href="#"><img src="./images/abk.jpg"></a>
+            </li>
+            <li>
+                <a href="#"><img src="./images/aria.jpg"></a>
+            </li>
+            <li>
+                <a href="#"><img src="./images/jts.jpg"></a>
+            </li>
+            <li>
+                <a href="#"><img src="./images/pioneer.jpg"></a>
+            </li>
+            <li>
+                <a href="#"><img src="./images/robe.jpg"></a>
+            </li>
+            <li>
+                <a href="#"><img src="./images/daddario.jpg"></a>
+            </li>
+            <li>
+                <a href="#"><img src="./images/schecter.png"></a>
+            </li>
+        </ul>
+        <div class="sponsors-arrow">
+            <a href="#"><img src="./images/arrow_grey.png"></a>
+        </div>
+        <div class="sponsors-arrow-left">
+            <a href="#"><img src="./images/arrow_grey.png"></a>
+        </div>
+        <div class="sponsors-text_line-left"></div>
+        <p class="sponsors-text"><a href="#">ВСЕ ПРОИЗВОДИТЕЛИ</a></p>
+        <div class="sponsors-text_line-right"></div>
+    </div>
+    <div class="all_manufacturers">
+
+        <p class="all_manufacturers-header">Распродажа инструментов</p>
+        <div class="all_manufacturers-menu">
+            <ul>
+                <li><a href="#">Инструменты</a></li>
+                <li><a href="#">Свет</a></li>
+                <li><a href="#">Звук</a></li>
+                <li><a href="#">Уценка</a></li>
+            </ul>
+        </div>
+        <div class="all_manufacturers-content">
+            <div class="all_manufacturers-content-box">
+                <div class="all_manufacturers-content-gallery">
+                        <a href="#"><img src="./images/music1.png"></a>
+                </div>
+                <div class="all_manufacturers-content-gallery_text">
+                    <p class="all_manufacturers-content-header">
+                        <u>Hohner Bravo III 96 RED</u>
+                    </p>
+                    <p class="all_manufacturers-content-text">
+                        Аккордеон, в стиле
+                        <br>
+                        «Юнион Джек». Выпущен
+                        <br>
+                        ограниченным тиражом.
+                    </p>
+                    <p class="all_manufacturers-content-prices">
+                        <p class="all_manufacturers_old-price">89 750</p>
+                        <p class="all_manufacturers_new-price">83 550 ₽</p>
+                    </p>
+                </div>
+            </div>
+            <div class="all_manufacturers-content-box">
+                <div class="all_manufacturers-content-gallery">
+                    <a href="#"><img src="./images/music4.jpg"></a>
+                </div>
+                <div class="all_manufacturers-content-gallery_text">
+                    <p class="all_manufacturers-content-header">
+                        <u>DBZ Halilfire</u>
+                    </p>
+                    <p class="all_manufacturers-content-text">
+                        Электрогитара, в стиле
+                        <br>
+                        «Юнион Джек». Выпущена
+                        <br>
+                        ограниченным тиражом.
+                    </p>
+                    <p class="all_manufacturers-content-prices">
+                        <p class="all_manufacturers_old-price">89 750</p>
+                        <p class="all_manufacturers_new-price">83 550 ₽</p>
+                    </p>
+                </div>
+            </div>
+            <div class="all_manufacturers-content-box">
+                <div class="all_manufacturers-content-gallery">
+                    <a href="#"><img src="./images/music2.jpg"></a>
+                </div>
+                <div class="all_manufacturers-content-gallery_text">
+                    <p class="all_manufacturers-content-header">
+                        <u>Pearl Sparkle Burst</u>
+                    </p>
+                    <p class="all_manufacturers-content-text">
+                        Малый барабан MCX Masters
+                        <br>
+                        Custom 14x5.5 (клен)
+
+                    </p>
+                    <p class="all_manufacturers-content-prices">
+                        <p class="all_manufacturers_old-price">89 750</p>
+                        <p class="all_manufacturers_new-price">83 550 ₽</p>
+                    </p>
+                </div>
+            </div>
+            <div class="all_manufacturers-content-box">
+                <div class="all_manufacturers-content-gallery">
+                    <a href="#"><img src="./images/music3.png"></a>
+                </div>
+                <div class="all_manufacturers-content-gallery_text">
+                    <p class="all_manufacturers-content-header">
+                        <u>Yamaha P-105B</u>
+                    </p>
+                    <p class="all_manufacturers-content-text">
+                        Компактное электропиано, оснащенное
+                        <br>
+                        стерео- сэмплированными тембрами!
+
+                    </p>
+                    <p class="all_manufacturers-content-prices">
+                        <p class="all_manufacturers_old-price">89 750</p>
+                        <p class="all_manufacturers_new-price">83 550 ₽</p>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="sponsors-arrow_2">
+            <a href="#"><img src="./images/arrow.jpg"></a>
+            <a href="#"><img src="./images/arrow.jpg" class="sponsors-arrow_2-right"></a>
+        </div>
+        <uL class="all_manufacturers-text_bottom">
+            <li><a href="#">ВСЕ ПРЕДЛОЖЕНИЯ</a></li>
+            <li><a href="#">ПОДПИСАТЬСЯ НА РАСПРОДАЖИ</a></li>
+        </uL>
+    </div>
+
+    <div class="services">
+        <p class="services-header">Услуги</p>
+        <div class="services-content">
+            <div class="services-content_box">
+                <a href="#"><img src="./images/tools3.png"></a>
+                <h3><a href="#">Доставка <br>
+                    до дверей</a></h3>
+                <p>Цикл, в том числе, выстраивает пласт. Как мы уже знаем, форшлаг регрессийно
+                образует звукорядный хорус.</p>
+            </div>
+            <div class="services-content_box">
+                <a href="#"><img src="./images/tools2.jpg"></a>
+                <h3><a href="#">Установка и<br>
+                    настройка</a></h3>
+                <p>Мы осуществляем проектирование и монтаж всего спектра
+                    поставляемого оборудования на любых типах объектов. </p>
+            </div>
+            <div class="services-content_box">
+                <a href="#"><img src="./images/tools1.jpg"></a>
+                <h3><a href="#">Продажа<br>
+                    в кредит</a></h3>
+                <p>Техника начинает лирический рок-н-ролл 50-х, благодаря употреблению
+                    микромотивов: нередко из одного звука, а также двух-трех с паузами.</p>
+            </div>
+            <div class="services-content_box">
+                <a href="#"><img src="./images/tools6.jpg"></a>
+                <h3><a href="#">Ремонт и<br>
+                    обслуживание</a></h3>
+                <p>Явление культурологического порядка, в первом приближении, самопроизвольно.
+                    Глиссандо варьирует мелодический шоу-бизнес. </p>
+            </div>
+            <div class="services-content_box">
+                <a href="#"><img src="./images/tools5.jpg"></a>
+                <h3><a href="#">Обмен <br>
+                    без проблем</a></h3>
+                <p>Группа Компаний LTM осуществляет проектирование и монтаж всего спектра
+                    поставляемого оборудования на любых типах объектов. </p>
+            </div>
+            <div class="services-content_box">
+                <a href="#"><img src="./images/tools4.jpg"></a>
+                <h3><a href="#">Подарочные <br>
+                    карты</a></h3>
+                <p>Ретро полифигурно просветляет звукосниматель, в таких условиях
+                    можно спокойно выпускать пластинки раз в три года. </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="promotions">
+        <p class="promotions-header">Акции</p>
+        <div class="promotions-content">
+            <div class="promotions-content_box">
+                <a href="#"><img src="./images/pic1.jpg"></a>
+                <h3><a href="#">Рассрочка без переплат!</a></h3>
+                <p>В магазинах Музыкальный Арсенал до конца 2014 года Вы можете приобрести
+                    любой товар в рассрочку на 6 месяцев. 0% ПЕРЕПЛАТЫ! Первоначальный взнос 10%!</p>
+
+            </div>
+            <div class="promotions-content_box-2">
+                <a href="#"><img src="./images/pic2.jpg"></a>
+                <h3><a href="#">Арсеналу 5 лет!</a></h3>
+                <p>В магазинах Музыкальный Арсенал до конца 2014 года Вы можете приобрести
+                    любой товар в рассрочку на 6 месяцев. 0% ПЕРЕПЛАТЫ! Первоначальный взнос 10%!</p>
+            </div>
+        </div>
+        <uL class="promotions-text_buttom">
+            <li><a href="#">ВСЕ АКЦИИ</a></li>
+            <li><a href="#">ПОДПИСАТЬСЯ НА АКЦИИ</a></li>
+        </uL>
+        <div class="promotions-arrow">
+            <a href="#"><img src="./images/arrow_black.png"></a>
+            <a href="#"><img src="./images/arrow_black.png" class="sponsors-arrow_2-right"></a>
+        </div>
+    </div>
+
+    <div class="novelty">
+            <p class="novelty-header">Новинки</p>
+            <div class="novelty-content">
+                <div class="all_manufacturers-content-box">
+                    <div class="all_manufacturers-content-gallery">
+                        <a href="#"><img src="./images/music8.jpg"></a>
+                    </div>
+                    <div class="all_manufacturers-content-gallery_text">
+                        <p class="all_manufacturers-content-header">
+                            <u>Hohner Bravo III 96 RED</u>
+                        </p>
+                        <p class="all_manufacturers-content-text">
+                            Аккордеон, в стиле
+                            <br>
+                            «Юнион Джек». Выпущен
+                            <br>
+                            ограниченным тиражом.
+                        </p>
+                        <p class="all_manufacturers-content-prices">
+                        <p class="all_manufacturers_old-price">89 750</p>
+                        <p class="all_manufacturers_new-price">83 550 ₽</p>
+                        </p>
+                    </div>
+                </div>
+                <div class="all_manufacturers-content-box">
+                    <div class="all_manufacturers-content-gallery">
+                        <a href="#"><img src="./images/music6.jpg"></a>
+                    </div>
+                    <div class="all_manufacturers-content-gallery_text">
+                        <p class="all_manufacturers-content-header">
+                            <u>DBZ Halilfire</u>
+                        </p>
+                        <p class="all_manufacturers-content-text">
+                            Электрогитара, в стиле
+                            <br>
+                            «Юнион Джек». Выпущена
+                            <br>
+                            ограниченным тиражом.
+                        </p>
+                        <p class="all_manufacturers-content-prices">
+                        <p class="all_manufacturers_old-price">89 750</p>
+                        <p class="all_manufacturers_new-price">83 550 ₽</p>
+                        </p>
+                    </div>
+                </div>
+                <div class="all_manufacturers-content-box">
+                    <div class="all_manufacturers-content-gallery">
+                        <a href="#"><img src="./images/music7.jpg"></a>
+                    </div>
+                    <div class="all_manufacturers-content-gallery_text">
+                        <p class="all_manufacturers-content-header">
+                            <u>Pearl Sparkle Burst</u>
+                        </p>
+                        <p class="all_manufacturers-content-text">
+                            Валторна одинарная 4-х
+                            <br>
+                            вентельная, лакированная.
+                        </p>
+                        <p class="all_manufacturers-content-prices">
+                        <p class="all_manufacturers_old-price">35 400</p>
+                        <p class="all_manufacturers_new-price">31 400 ₽</p>
+                        </p>
+                    </div>
+                </div>
+                <div class="all_manufacturers-content-box">
+                    <div class="all_manufacturers-content-gallery">
+                        <a href="#"><img src="./images/music5.jpg"></a>
+                    </div>
+                    <div class="all_manufacturers-content-gallery_text">
+                        <p class="all_manufacturers-content-header">
+                            <u>Yamaha P-105B</u>
+                        </p>
+                        <p class="all_manufacturers-content-text">
+                            Эта труба - флагман 3-й серии Yamaha.
+                            <br>
+                            Обновленный дизайн, свежее звучание
+                            <br>
+                            и улучшенная механика.
+                        </p>
+                        <p class="all_manufacturers-content-prices">
+                        <p class="all_manufacturers_old-price">89 750</p>
+                        <p class="all_manufacturers_new-price">83 550 ₽</p>
+                        </p>
+                    </div>
+                </div>
+
+                <uL class="novelty-content-text_buttom">
+                    <li><a href="#">ВСЕ НОВИНКИ</a></li>
+                    <li><a href="#">ПОДПИСАТЬСЯ НА НОВИНКИ</a></li>
+                </uL>
+            </div>
+        <div class="novelty-arrow_2">
+            <a href="#"><img src="./images/arrow.jpg"></a>
+            <a href="#"><img src="./images/arrow.jpg" class="sponsors-arrow_2-right"></a>
+        </div>
+    </div>
+
+    <div  class="reviews">
+        <div class="reviews-left">
+                <p class="reviews-news">Новости</p>
+                <div class="reviews-block">
+                    <div class="reviews-block_box">
+                        <a href="#"><img src="./images/photo1.jpg"></a>
+                        <p class="reviews-header"><a href="#">Мастер-класс Данила Прокопьева в Краснодаре</a></p>
+                        <p class="reviews-text">Мастер-класс состоится 18 октября 2014 года в 15.30 в музыкальном центре SOROKA.</p>
+                        <p class="reviews-date">18 июня 2014 г.</p>
+                    </div>
+                    <div class="reviews-block_box-2">
+                        <a href="#"><img src="./images/photo3.jpg"></a>
+                        <p class="reviews-header"><a href="#">Ирина Стачинская – официальный артист Powell</a></p>
+                        <p class="reviews-text">С 6 лет, с момента поступления в музыкальный колледж имени Гнесиных,
+                            ее самым близким другом стала Флейта.</p>
+                        <p class="reviews-date">18 июня 2014 г.</p>
+                    </div>
+                </div>
+            <ul>
+                <li>
+                    <p><a href="#">ВСЕ НОВОСТИ</a></p>
+                </li>
+                <li>
+                    <p><a href="#">ПОДПИСАТЬСЯ</a></p>
+                </li>
+            </ul>
+        </div>
+        <div class="reviews-right">
+            <p class="reviews-news">Обзоры</p>
+            <div class="reviews-block">
+                <div class="reviews-block_box">
+                    <a href="#"><img src="./images/photo2.png"></a>
+                    <p class="reviews-header"><a href="#">Новые модели гитар Fina!</a></p>
+                    <p class="reviews-text">Классическая гитара Fina FC-603 и электроакустическая гитара FR-82CEQ!</p>
+                    <p class="reviews-date">18 июня 2014 г.</p>
+                </div>
+                <div class="reviews-block_box-2">
+                    <a href="#"><img src="./images/photo4.jpg"></a>
+                    <p class="reviews-header"><a href="#">Гитары Spread Music в Музыкальном Арсенале</a></p>
+                    <p class="reviews-text">В широком ассортименте товары для учащихся музыкальных школ:
+                        клавишные, духовые, струнные и ударные инструменты.</p>
+                    <p class="reviews-date">18 июня 2014 г.</p>
+                </div>
+            </div>
+            <ul>
+                <li>
+                    <p><a href="#">ВСЕ НОВОСТИ</a></p>
+                </li>
+                <li>
+                    <p><a href="#">ПОДПИСАТЬСЯ</a></p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Назад</button>
+    </div>
+
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-content_left">
+                <ul>
+                    <li><h3>@ 2014 Музыкальный арсенал</h3></li>
+                    <li><p><a href="#">Правила использования сайта</a></p></li>
+                    <li></li>
+                </ul>
+                <ul class="footer-ul">
+                    <li><p><a href="#">Разработка сайта</a> - klassman.ru</p></li>
+                    <li><p><a href="#">Дизайн сайта</a> - yurev.pro</p></li>
+                </ul>
+            </div>
+            <div class="footer-content_center">
+                <h3><a href="#">Магазин в Новосибирске</a></h3>
+                <p><a href="#"><img class="footer-logo" src="./images/11.png"></a> ул. Октябрьская, 34</p>
+                <p><a href="#"><img class="footer-logo" src="./images/22.png"></a> (383) 240-80-80, 240-80-00</p>
+                <p><a href="#"><img class="footer-logo" src="./images/33.png"></a>  Сегодня с 10:00 до 19:00</p>
+                <div class="footer-content_center-img">
+                    <a href="#"><img src="./images/bk.png"></a>
+                    <a href="#"><img src="./images/fb.png"></a>
+                    <a href="#"><img src="./images/av.png"></a>
+                </div>
+            </div>
+            <div class="footer-content_right">
+                <ul>
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Наша история</a></li>
+                    <li><a href="#">Благодарности</a></li>
+                    <li><a href="#">Партнерам</a></li>
+                    <li><a href="#">Магазины</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Эндорсеры</a></li>
+                    <li><a href="#">Коллктив</a></li>
+                    <li><a href="#">Вакансии</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Обзор</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Акции</a></li>
+                    <li><a href="#">Распродажа</a></li>
+                    <li><a href="#">Товары</a></li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">Производители</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="https://yastatic.net/jquery/3.1.1/jquery.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/js.js"></script>
+    <script src="js/jquery-3.3.1.js"></script>
 </body>
 </html>
